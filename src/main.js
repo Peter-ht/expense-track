@@ -110,7 +110,7 @@ form.addEventListener("submit", (event) => {
   addExpense(expense);
   form.reset();
 
-  // Restore defaults after resetting the form.
+
   currencyInput.value = "USD";
   categoryInput.value = "Food";
 
@@ -127,8 +127,6 @@ document.querySelector("#expense-list").addEventListener("click", (event) => {
   showFormMessage("Expense deleted.");
   renderApp();
 });
-
-console.log(yourElementVariable);
 
 homeCurrencyInput.addEventListener("change", () => {
   renderApp();
