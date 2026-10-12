@@ -8,10 +8,7 @@ After enabling GitHub Pages, add the published URL here:
 
 https://Peter-ht.github.io/expense-tracker/
 
-## Features
-
-| Feature | Description |
-|---|---|
+## Feature
 | Add expenses | Save a description, amount, currency, and category |
 | Live conversion | Convert expenses using current exchange rates |
 | Home currency | Change the currency used for totals |
@@ -23,20 +20,20 @@ https://Peter-ht.github.io/expense-tracker/
 
 ## Technology
 
-| Technology | Usage |
+| Technology used
 |---|---|
-| HTML | Semantic application structure |
+| HTML 
 | CSS | Responsive layout and visual styling |
 | JavaScript ES modules | Separate API, state, UI, utility, and entry-point logic |
 | ExchangeRate API | https://open.er-api.com/v6/latest/USD |
 | Jest | Unit testing pure utility functions |
 | ESLint | Static analysis |
-| GitHub Pages | Static deployment |
+
 
 ## Run locally
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/expense-tracker.git
+git clone https://github.com/Peter-ht/expense-tracker.git
 cd expense-tracker
