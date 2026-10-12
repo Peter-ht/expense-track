@@ -128,6 +128,8 @@ document.querySelector("#expense-list").addEventListener("click", (event) => {
   renderApp();
 });
 
+console.log(yourElementVariable);
+
 homeCurrencyInput.addEventListener("change", () => {
   renderApp();
 });
